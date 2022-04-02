@@ -176,7 +176,7 @@ $(document).ready(function () {
                 var lat = response.coord.lat;
                 var lon = response.coord.lon;
                 var FiveDaysURL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=hourly,minutely&units=imperial&appid=" + apiKey;
-                var fiveDayForecastEl = $("#fiveDayForecast");
+                var fiveDayForecastEl = $("#forecast");
                 fiveDayForecastEl.empty();
                 $.ajax({
                     url: FiveDaysURL,

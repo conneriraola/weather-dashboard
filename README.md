@@ -24,7 +24,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## LINK TO DEPLOYED APPLICATION
-[Deployed Link]()
+[Deployed Link](https://conneriraola.github.io/weather-dashboard/)
 
 ## SCREENSHOT
 <img src="assets/images/Weather-Dashboard.png" width="300px">
